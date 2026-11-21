@@ -1,0 +1,24 @@
+markdown: kramdown
+highlighter: rouge
+
+permalink: pretty
+
+title: Burhanuddin
+tagline: "Product Security Analyst at HackerOne & Bug Bounty Hunter"
+description: >-
+  Bug bounty hunter specializing in web, API, mobile, and cloud security.
+  Product Security Analyst at HackerOne with 50+ responsible disclosures.
+url: ""
+baseurl: ""
+
+author:
+  name: "Burhanuddin Chhotaudepurwala"
+  email: "coderburhan9@gmail.com"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .claude
+  - node_modules
+  - vendor

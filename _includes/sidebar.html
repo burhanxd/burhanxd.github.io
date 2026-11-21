@@ -1,0 +1,32 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      </h1>
+      <p class="lead">{{ site.tagline }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">About</a>
+      {% assign sorted_pages = site.pages | sort: "nav_order" %}
+      {% for p in sorted_pages %}
+        {% if p.layout == 'page' and p.title %}
+        <a class="sidebar-nav-item{% if page.url == p.url %} active{% endif %}" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+
+    <div class="sidebar-socials">
+      <a href="https://hackerone.com/burhan__xd" target="_blank" title="HackerOne">H1</a>
+      <span class="sep">&middot;</span>
+      <a href="https://app.intigriti.com/profile/burhanxd" target="_blank" title="Intigriti">Intigriti</a>
+      <span class="sep">&middot;</span>
+      <a href="https://github.com/burhanxd" target="_blank" title="GitHub">GitHub</a>
+      <span class="sep">&middot;</span>
+      <a href="https://x.com/burhan__xd" target="_blank" title="X / Twitter">X</a>
+    </div>
+
+    <p class="sidebar-footer">&copy; {{ 'now' | date: "%Y" }} Burhanuddin Chhotaudepurwala</p>
+  </div>
+</div>
