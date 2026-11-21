@@ -37,6 +37,11 @@ I've reported vulnerabilities to companies like **Google** and **Yahoo**, and ha
   <p>Building custom AI agents to augment my security workflow. Using them for recon automation, vulnerability discovery, and exploitation based on my own methodology. Bridging offensive security with AI to work smarter, not just harder.</p>
 </div>
 
+## Certifications
+
+- **CRTP** - Certified Red Team Professional
+- **eCPPT** - eLearnSecurity Certified Professional Penetration Tester
+
 ---
 
 If you're looking for someone to pentest your web app or API, reach out on [X](https://x.com/burhan__xd) or [LinkedIn](https://linkedin.com/in/burhanxd).
