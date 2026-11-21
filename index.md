@@ -39,4 +39,4 @@ I've reported vulnerabilities to companies like **Google** and **Yahoo**, and ha
 
 ---
 
-If you're looking for someone to pentest your web app or API, feel free to reach out at [{{ site.author.email }}](mailto:{{ site.author.email }}).
+If you're looking for someone to pentest your web app or API, reach out on [X](https://x.com/burhan__xd) or [LinkedIn](https://linkedin.com/in/burhanxd).

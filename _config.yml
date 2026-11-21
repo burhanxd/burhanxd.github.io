@@ -13,12 +13,14 @@ baseurl: ""
 
 author:
   name: "Burhanuddin Chhotaudepurwala"
-  email: "coderburhan9@gmail.com"
+  twitter: "burhan__xd"
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - macos-text-expander
+  - windows-text-expander
   - .claude
   - node_modules
   - vendor
