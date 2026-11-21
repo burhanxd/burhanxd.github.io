@@ -44,4 +44,4 @@ I've reported vulnerabilities to companies like **Google** and **Yahoo**, and ha
 
 ---
 
-If you're looking for someone to pentest your web app or API, reach out on [X](https://x.com/burhan__xd) or [LinkedIn](https://linkedin.com/in/burhanxd).
+If you're looking for someone to pentest your web app, API, or need a code review, reach out on [X](https://x.com/burhan__xd) or [LinkedIn](https://linkedin.com/in/burhanxd).
