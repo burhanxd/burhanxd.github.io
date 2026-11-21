@@ -1,0 +1,161 @@
+/* Stats cards */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.stat-card {
+  background: #27272a;
+  border: 1px solid #3f3f46;
+  border-radius: 8px;
+  padding: 1.25rem;
+  text-align: center;
+  transition: border-color 0.2s ease;
+}
+
+.stat-card:hover {
+  border-color: #60a5fa;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #60a5fa;
+  line-height: 1.2;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.75rem;
+  color: #a1a1aa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 0.35rem;
+}
+
+/* Platform badge */
+.platform-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #1f1f23;
+  border: 1px solid #3f3f46;
+  border-radius: 8px;
+}
+
+.platform-section h3 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.platform-link {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #60a5fa;
+}
+
+/* Disclosure list */
+.disclosure-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #27272a;
+}
+
+.disclosure-item:last-child {
+  border-bottom: none;
+}
+
+.disclosure-company {
+  font-weight: 600;
+  color: #fafafa;
+}
+
+.disclosure-type {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  background: rgba(96, 165, 250, 0.1);
+  color: #60a5fa;
+  border-radius: 999px;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.disclosure-severity-critical {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+
+.disclosure-severity-high {
+  background: rgba(249, 115, 22, 0.1);
+  color: #f97316;
+}
+
+.disclosure-severity-medium {
+  background: rgba(234, 179, 8, 0.1);
+  color: #eab308;
+}
+
+
+/* Skill tags */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  background: #27272a;
+  border: 1px solid #3f3f46;
+  color: #d4d4d8;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Intro highlight */
+.intro-highlight {
+  font-size: 1.15rem;
+  color: #a1a1aa;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.intro-highlight strong {
+  color: #e4e4e7;
+}
+
+/* Timeline-style entries */
+.timeline-entry {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.timeline-entry::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 6px;
+  height: 6px;
+  background: #60a5fa;
+  border-radius: 50%;
+}
+
+.timeline-entry h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.timeline-meta {
+  font-size: 0.8rem;
+  color: #71717a;
+}
