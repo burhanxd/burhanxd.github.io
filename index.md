@@ -23,7 +23,7 @@ I've reported vulnerabilities to companies like **Google** and **Yahoo**, and ha
 
 <div class="timeline-entry">
   <h3>Bug Bounty Hunter</h3>
-  <p class="timeline-meta">Intigriti</p>
+  <p class="timeline-meta">2020 - Present</p>
   <p>Hunting across public and private programs. Web apps, APIs, mobile apps. I threat model my targets before going in, and do source code reviews when available.</p>
 </div>
 
