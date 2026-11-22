@@ -3,8 +3,6 @@ layout: default
 title: About
 ---
 
-<h1>Burhanuddin Chhotaudepurwala</h1>
-
 Hey, I'm Burhan. I'm a bug bounty hunter and Product Security Analyst at HackerOne. I spend most of my time hunting bugs across web apps, APIs, mobile apps, and cloud infrastructure, and triaging vulnerability reports on H1.
 
 I've reported vulnerabilities to companies like **Google** and **Yahoo**, and have **50+ responsible disclosures** outside of bug bounty platforms. On the platform side, I'm currently active on **Intigriti**.
