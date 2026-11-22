@@ -3,7 +3,9 @@ layout: default
 title: About
 ---
 
-Hey, I'm Burhan. I'm a bug bounty hunter and Product Security Analyst at HackerOne. I spend most of my time hunting bugs across web apps, APIs, mobile apps, and cloud infrastructure, and triaging vulnerability reports on H1.
+<h2 style="margin-top:0">Hey, I'm Burhan.</h2>
+
+I'm a bug bounty hunter and Product Security Analyst at HackerOne. I spend most of my time hunting bugs across web apps, APIs, mobile apps, and cloud infrastructure, and triaging vulnerability reports on H1.
 
 I've reported vulnerabilities to companies like **Google** and **Yahoo**, and have **50+ responsible disclosures** outside of bug bounty platforms. On the platform side, I'm currently active on **Intigriti**.
 
